@@ -1,2 +1,2 @@
 # my_ls
-Similar to ls
+Similar to ls - EPITECH
