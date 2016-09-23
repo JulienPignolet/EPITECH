@@ -1,0 +1,6 @@
+Add that in ~/.emacs to remove all spaces in end of line:
+
+(add-hook 'c++-mode-hook '(lambda ()
+  (add-hook 'write-contents-hooks 'delete-trailing-whitespace nil t)))
+(add-hook   'c-mode-hook '(lambda ()
+			    (add-hook 'write-contents-hooks 'delete-trailing-whitespace nil t)))
