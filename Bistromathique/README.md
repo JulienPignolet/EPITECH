@@ -1,2 +1,2 @@
 # Bistromathique
-Infinite calculator
+Infinite calculator - EPITECH
